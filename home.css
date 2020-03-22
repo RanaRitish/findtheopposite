@@ -1,0 +1,35 @@
+body {
+    background-color:  gray;
+    text-align: center;
+    color: greenyellow;
+    font-size: 30px;
+}
+textarea {
+    width: 80%;
+    height: 100px;
+    font-size: 90px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    background-color: #aeb2b8;
+    font-weight: 600;
+}
+
+button {
+    width: 20%;
+    height: 50px;
+    font-size: 30px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    background-color: #aeb2b8;
+    font-weight: 600;
+    margin-top: 50px;
+
+}
+
