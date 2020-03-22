@@ -5,15 +5,24 @@
         
     </head>
     <body>
+        
         <h1>Find the Opposite</h1>
         <h2>Please enter something to find it's opposite</h2>
     
 
         <!-- <form action="/action_page.php"> -->
-            <form>
-                <textarea></textarea><br>  
-                <button>Find</button>
+            <form id ="form">
+                <textarea type="text" id ="userinput"></textarea><br>  
+                <button onclick="findOpposite()">Find</button>
             </form>
+
+            <dev class="oppositeWord">
+                <p id="output"></p>
+            </dev>
+
+        <script src="homepage.js">
+        </script>
+
     </body>
 
 </html>
